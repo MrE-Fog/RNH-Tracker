@@ -1,11 +1,5 @@
-//
 //  ViewController.swift
-//  OpenGpxTracker
-//
-//  Created by merlos on 13/09/14.
-//
-//  Localized by nitricware on 19/08/19.
-//
+//  RNH-Tracker
 
 import UIKit
 import CoreLocation
@@ -466,7 +460,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         let font12 = UIFont(name: "DinAlternate-Bold", size: 12.0)
         
         //add the app title Label (Branding, branding, branding! )
-        appTitleLabel.text = "  Open GPX Tracker"
+        appTitleLabel.text = "  RNH Tracker (voor de www.ysy.nl)  "
         appTitleLabel.textAlignment = .left
         appTitleLabel.font = UIFont.boldSystemFont(ofSize: 10)
         //appTitleLabel.textColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
@@ -527,24 +521,24 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         map.addSubview(aboutButton)
         
         // Preferences button
-        preferencesButton.frame = CGRect(x: 5 + 10 + 48, y: 14 + 5 + 8  + iPhoneXdiff, width: 32, height: 32)
-        preferencesButton.setImage(UIImage(named: "prefs"), for: UIControl.State())
-        preferencesButton.setImage(UIImage(named: "prefs_high"), for: .highlighted)
-        preferencesButton.addTarget(self, action: #selector(ViewController.openPreferencesTableViewController), for: .touchUpInside)
-        preferencesButton.autoresizingMask = [.flexibleRightMargin]
+        //preferencesButton.frame = CGRect(x: 5 + 10 + 48, y: 14 + 5 + 8  + iPhoneXdiff, width: 32, height: 32)
+        //preferencesButton.setImage(UIImage(named: "prefs"), for: UIControl.State())
+        //preferencesButton.setImage(UIImage(named: "prefs_high"), for: .highlighted)
+        //preferencesButton.addTarget(self, action: #selector(ViewController.openPreferencesTableViewController), for: .touchUpInside)
+        //preferencesButton.autoresizingMask = [.flexibleRightMargin]
         //aboutButton.backgroundColor = kWhiteBackgroundColor
         //aboutButton.layer.cornerRadius = 24
-        map.addSubview(preferencesButton)
+        //map.addSubview(preferencesButton)
         
         // Share button
-        shareButton.frame = CGRect(x: 5 + 10 + 48 * 2, y: 14 + 5 + 8  + iPhoneXdiff, width: 32, height: 32)
-        shareButton.setImage(UIImage(named: "share"), for: UIControl.State())
-        shareButton.setImage(UIImage(named: "share_high"), for: .highlighted)
-        shareButton.addTarget(self, action: #selector(ViewController.openShare), for: .touchUpInside)
-        shareButton.autoresizingMask = [.flexibleRightMargin]
+        //shareButton.frame = CGRect(x: 5 + 10 + 48 * 2, y: 14 + 5 + 8  + iPhoneXdiff, width: 32, height: 32)
+        //shareButton.setImage(UIImage(named: "share"), for: UIControl.State())
+        //shareButton.setImage(UIImage(named: "share_high"), for: .highlighted)
+        //shareButton.addTarget(self, action: #selector(ViewController.openShare), for: .touchUpInside)
+        //shareButton.autoresizingMask = [.flexibleRightMargin]
         //aboutButton.backgroundColor = kWhiteBackgroundColor
         //aboutButton.layer.cornerRadius = 24
-        map.addSubview(shareButton)
+        //map.addSubview(shareButton)
         
         // Folder button
         let folderW: CGFloat = kButtonSmallSize
@@ -606,6 +600,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         newPinButton.setImage(UIImage(named: "addPin"), for: UIControl.State())
         newPinButton.setImage(UIImage(named: "addPinHigh"), for: .highlighted)
         newPinButton.addTarget(self, action: #selector(ViewController.addPinAtMyLocation), for: .touchUpInside)
+        newPinButton.isHidden = true
         map.addSubview(newPinButton)
         
         // Follow user button
@@ -615,6 +610,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         followUserButton.setImage(UIImage(named: "follow_user_high"), for: UIControl.State())
         followUserButton.setImage(UIImage(named: "follow_user_high"), for: .highlighted)
         followUserButton.addTarget(self, action: #selector(ViewController.followButtonTroggler), for: .touchUpInside)
+        followUserButton.isHidden = true
         map.addSubview(followUserButton)
         
         // Save button
@@ -1005,10 +1001,10 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     
     ///
     /// After invoking this fuction, the map will not be centered on current user position.
-    ///
+    /// aangepast naar true, map altijd in het midden van de locatie
     @objc func stopFollowingUser(_ gesture: UIPanGestureRecognizer) {
         if self.followUser {
-            self.followUser = false
+            self.followUser = true
         }
     }
     

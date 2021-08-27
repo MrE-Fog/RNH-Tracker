@@ -1,9 +1,5 @@
-//
 //  DateFieldTypeView.swift
-//  OpenGpxTracker
-//
-//  Created by Vincent Neo on 15/4/20.
-//
+//  RNH-Tracker
 
 import UIKit
 

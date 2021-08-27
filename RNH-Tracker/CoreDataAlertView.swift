@@ -1,9 +1,5 @@
-//
 //  CoreDataAlertView.swift
-//  OpenGpxTracker
-//
-//  Created by Vincent on 25/6/19.
-//
+//  RNH-Tracker
 
 import UIKit
 
