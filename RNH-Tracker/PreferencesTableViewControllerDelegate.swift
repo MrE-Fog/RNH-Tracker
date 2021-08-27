@@ -1,16 +1,9 @@
-//
 //  PreferencesTableViewControllerDelegate.swift
-//  OpenGpxTracker
-//
-//  Created by merlos on 24/10/15.
-//
+//  RNH-Tracker
 
 import Foundation
 
-///
 /// Delegate protocol of the view controller that displays the list of tile servers
-///
-///
 protocol PreferencesTableViewControllerDelegate: class {
     
     /// User updated tile server

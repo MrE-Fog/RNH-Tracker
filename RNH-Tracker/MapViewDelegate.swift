@@ -1,6 +1,4 @@
-//
 //  Localized by nitricware on 19/08/19.
-//
 
 import MapKit
 import CoreGPX

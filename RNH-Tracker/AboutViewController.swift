@@ -1,20 +1,12 @@
-//
 //  InfoWKViewController.swift
-//  OpenGpxTracker
-//
-//  Created by merlos on 24/09/14.
-//
+//  RNH-Tracker
 //  Localized by nitricware on 19/08/19.
-//
 
 import UIKit
 import WebKit
 
-///
 /// Controller to display the About page.
-///
 /// Internally it is a WKWebView that displays the resource file about.html.
-///
 class AboutViewController: UIViewController {
     
     /// Embedded web browser

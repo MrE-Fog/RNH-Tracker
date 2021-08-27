@@ -1,9 +1,5 @@
-//
 //  DefaultNameSetupViewController.swift
-//  OpenGpxTracker
-//
-//  Created by Vincent on 3/3/20.
-//
+//  RNH-Tracker
 
 import UIKit
 

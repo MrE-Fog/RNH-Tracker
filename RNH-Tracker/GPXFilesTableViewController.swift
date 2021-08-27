@@ -1,11 +1,5 @@
-//
 //  GPXFilesTableViewController.swift
-//  OpenGpxTracker
-//
-//  Created by merlos on 14/09/14.
-//
-//  Localized by nitricware on 19/08/19.
-//
+//  RNH-Tracker
 
 import Foundation
 import UIKit

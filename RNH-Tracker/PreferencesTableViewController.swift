@@ -1,11 +1,6 @@
-//
 //  PreferencesTableViewController.swift
-//  OpenGpxTracker
-//
-//  Created by merlos on 24/10/15.
-//
+//  RNH-Tracker
 //  Localized by nitricware on 19/08/19.
-//
 
 import Foundation
 import UIKit

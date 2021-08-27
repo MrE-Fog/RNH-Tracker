@@ -1,15 +1,10 @@
-//
-//  OpenGpxTrackerTests.swift
-//  OpenGpxTrackerTests
-//
-//  Created by merlos on 13/09/14.
-//  Copyright (c) 2014 TransitBox. All rights reserved.
-//
+//  RNH-TrackerTests.swift
+//  RNH-TrackerTests
 
 import UIKit
 import XCTest
 
-class OpenGpxTrackerTests: XCTestCase {
+class RNH-TrackerTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
