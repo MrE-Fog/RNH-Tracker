@@ -1,7 +1,6 @@
 //
 //  Date+timeAgo.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by merlos on 23/09/2018.
 //
 //  Localized by nitricware on 19/08/19.

@@ -1,7 +1,6 @@
 //
 //  GPXTrack+length.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by merlos on 30/09/15.
 //
 

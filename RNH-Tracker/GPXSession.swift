@@ -1,9 +1,7 @@
 //
 //  GPXSession.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by Vincent Neo on 13/6/19.
-//
 //  Shared file: this file is also included in the OpenGpxTracker-Watch Extension target.
 
 import Foundation
@@ -12,11 +10,11 @@ import CoreLocation
 
 #if os(iOS)
 /// GPX creator identifier. Used on generated files identify this app created them.
-let kGPXCreatorString = "Open GPX Tracker for iOS"
+let kGPXCreatorString = "Open RNH Tracker for iOS"
 
 #elseif os(watchOS)
 /// GPX creator identifier. Used on generated files identify this app created them.
-let kGPXCreatorString = "Open GPX Tracker for watchOS"
+let kGPXCreatorString = "Open RNH Tracker for watchOS"
 
 /// Such that current watch app code remains compatible without needing to rename.
 typealias GPXMapView = GPXSession

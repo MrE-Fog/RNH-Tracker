@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RNH-TrackerVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RNH-TrackerVersionString[];
+FOUNDATION_EXPORT double Pods_RNH_TrackerVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RNH_TrackerVersionString[];
 

@@ -1,9 +1,5 @@
-//
 //  DistanceLabel.swift
-//  OpenGpxTracker
-//
-//  Created by merlos on 01/10/15.
-//
+//  RNH-Tracker
 
 import Foundation
 import UIKit

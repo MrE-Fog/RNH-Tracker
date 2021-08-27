@@ -1,7 +1,6 @@
 //
 //  StopWatch.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by merlos on 21/09/14.
 //
 
@@ -34,7 +33,7 @@ class StopWatch: NSObject {
     var status: StopWatchStatus
     
     /// Defines the interval in which the delegate is called
-    var timeInterval: TimeInterval = 1.00 //seconds
+    var timeInterval: TimeInterval = 30.00 //seconds
     
     /// Timer that handles the synchronous notifications calls to `updateElapsedTime`
     var timer = Timer()

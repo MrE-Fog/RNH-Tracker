@@ -1,4 +1,4 @@
-framework module Pods_RNH-Tracker {
+framework module Pods_RNH_Tracker {
   umbrella header "Pods-RNH-Tracker-umbrella.h"
 
   export *

@@ -1,7 +1,6 @@
 //
 //  GPXExtentCoordinates.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by merlos on 22/01/15.
 //
 

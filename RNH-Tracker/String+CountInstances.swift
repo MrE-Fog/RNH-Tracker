@@ -1,7 +1,6 @@
 //
 //  String+CountInstances.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by Vincent Neo on 17/4/20.
 //
 

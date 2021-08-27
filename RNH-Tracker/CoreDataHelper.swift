@@ -1,7 +1,6 @@
 //
 //  CoreDataHelper.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by Vincent on 9/4/19.
 //
 

@@ -1,9 +1,5 @@
-//
 //  GPXMapView.swift
-//  OpenGpxTracker
-//
-//  Created by merlos on 24/09/14.
-//
+//  RNH-Tracker
 
 import Foundation
 import UIKit

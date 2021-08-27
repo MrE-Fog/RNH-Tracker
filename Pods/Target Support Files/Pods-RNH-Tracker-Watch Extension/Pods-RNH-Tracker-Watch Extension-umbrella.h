@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RNH-Tracker_Watch_ExtensionVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RNH-Tracker_Watch_ExtensionVersionString[];
+FOUNDATION_EXPORT double Pods_RNH_Tracker_Watch_ExtensionVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RNH_Tracker_Watch_ExtensionVersionString[];
 

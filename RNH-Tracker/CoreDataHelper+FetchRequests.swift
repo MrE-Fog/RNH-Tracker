@@ -1,7 +1,6 @@
 //
 //  CoreDataHelper+FetchRequests.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by Vincent Neo on 1/8/20.
 //
 

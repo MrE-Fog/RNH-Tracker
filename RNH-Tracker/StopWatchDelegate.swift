@@ -1,7 +1,6 @@
 //
 //  StopWatchDelegate.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by merlos on 24/09/14.
 //
 

@@ -11,9 +11,11 @@
 		120DE71022B274910055C4CB /* GPXSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DE70F22B274910055C4CB /* GPXSession.swift */; };
 		120DE71122B274A40055C4CB /* GPXSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120DE70F22B274910055C4CB /* GPXSession.swift */; };
 		12A1A44424D561AC0057ED7A /* CoreDataHelper+FetchRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A1A44324D561AC0057ED7A /* CoreDataHelper+FetchRequests.swift */; };
+		1D92EBEDCB4EF01D87B93C95 /* Pods_RNH_Tracker_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F3192FC0A00770078C176F /* Pods_RNH_Tracker_Watch_Extension.framework */; };
 		4588D66B230D23AA009AA75F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4588D66D230D23AA009AA75F /* InfoPlist.strings */; };
 		4588D66F230D2476009AA75F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4588D671230D2476009AA75F /* InfoPlist.strings */; };
 		45A430E9230D61240003C2F2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A430EB230D61240003C2F2 /* Interface.storyboard */; };
+		54582AD16BE45836AC8C4349 /* Pods_RNH_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA7CCBA9C75057CC4C291CB /* Pods_RNH_Tracker.framework */; };
 		8913CD8C1BDB0A9A009EC729 /* PreferencesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913CD8B1BDB0A9A009EC729 /* PreferencesTableViewController.swift */; };
 		8913CD8E1BDB2477009EC729 /* PreferencesTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8913CD8D1BDB2477009EC729 /* PreferencesTableViewControllerDelegate.swift */; };
 		893BEC8619C7E62200C77354 /* GPXWaypoint+MKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893BEC8519C7E62200C77354 /* GPXWaypoint+MKAnnotation.swift */; };
@@ -90,8 +92,6 @@
 		BFF304802312DC1F0012D263 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1FE1A6230EAB9B00404B59 /* Localizable.strings */; };
 		BFF304812312DC700012D263 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A430EB230D61240003C2F2 /* Interface.storyboard */; };
 		BFF304822312DC800012D263 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4588D671230D2476009AA75F /* InfoPlist.strings */; };
-		C51CE1F4B71B7051FF9F4D44 /* Pods_RNHTracker_Watch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93BD71BED3CF101C2B01ABDA /* Pods_RNHTracker_Watch_Extension.framework */; };
-		C894B839E0B8DC37DE05DDCC /* Pods_RNH-Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D28CBDF2535138FA16F38F /* Pods_RNH-Tracker.framework */; };
 		DC4908A11C4A136F009484AE /* TrackerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4908A01C4A136F009484AE /* TrackerButton.swift */; };
 		DC4908A31C4A332E009484AE /* MapViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4908A21C4A332E009484AE /* MapViewDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -161,7 +161,7 @@
 		12D4905624C448540065D995 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		12D4905724C448540065D995 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C3088B74A230AB1FD234D6F /* Pods_RNH-Tracker_Watch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RNH-Tracker_Watch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E786790A477838358F948C /* Pods-RNH-Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH-Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGpxTracker/Pods-RNH-Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		44E786790A477838358F948C /* Pods-RNH-Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH-Tracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNH-Tracker/Pods-RNH-Tracker.debug.xcconfig"; sourceTree = "<group>"; };
 		455F78BE230AA9D6003705F3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		4588D66C230D23AA009AA75F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4588D66E230D23AD009AA75F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -170,7 +170,9 @@
 		45A430EA230D61240003C2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		45A430ED230D612B0003C2F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Interface.strings; sourceTree = "<group>"; };
 		45A430EF230D612C0003C2F2 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Interface.strings; sourceTree = "<group>"; };
-		554D2ACAA71E64B3A7B1A167 /* Pods-RNH-Tracker-Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH-Tracker-Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGpxTracker-Watch Extension/Pods-RNH-Tracker-Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		554D2ACAA71E64B3A7B1A167 /* Pods-RNH-Tracker-Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH-Tracker-Watch Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNH-Tracker-Watch Extension/Pods-RNH-Tracker-Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		66D1F001DBF0F222F6A6D674 /* Pods-RNH-Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH-Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNH-Tracker/Pods-RNH-Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		80F3192FC0A00770078C176F /* Pods_RNH_Tracker_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNH_Tracker_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DE40602499509900ED7D6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84DE40612499509900ED7D6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Interface.strings; sourceTree = "<group>"; };
 		84DE40622499509900ED7D6D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -221,9 +223,7 @@
 		89F6E0F6227E107C00CE3E3F /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		89F8749A1BBB7362004EF41A /* GPXTrack+length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GPXTrack+length.swift"; sourceTree = "<group>"; };
 		89F8749E1BBCB97F004EF41A /* GPXRoot+length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GPXRoot+length.swift"; sourceTree = "<group>"; };
-		93BD71BED3CF101C2B01ABDA /* Pods_RNHTracker_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNHTracker_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		95D28CBDF2535138FA16F38F /* Pods_RNH-Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_RNH-Tracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A591D96EF2E41D00AD6BB3A /* Pods-RNH-Tracker-Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH-Tracker-Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGpxTracker-Watch Extension/Pods-RNH-Tracker-Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		9A591D96EF2E41D00AD6BB3A /* Pods-RNH-Tracker-Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH-Tracker-Watch Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNH-Tracker-Watch Extension/Pods-RNH-Tracker-Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
 		BF15092123916FC100F51F1B /* UIColor+DarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+DarkMode.swift"; sourceTree = "<group>"; };
 		BF177EE924D54F9200D5E021 /* CoreDataHelper+BatchDelete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CoreDataHelper+BatchDelete.swift"; sourceTree = "<group>"; };
 		BF1FE1A7230EAB9B00404B59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -267,7 +267,8 @@
 		D39420E623CC1B0500EDC8F6 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC4908A01C4A136F009484AE /* TrackerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerButton.swift; sourceTree = "<group>"; };
 		DC4908A21C4A332E009484AE /* MapViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewDelegate.swift; sourceTree = "<group>"; };
-		F8AD19460733F6AD5C43BE2D /* Pods-RNH_Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH_Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenGpxTracker/Pods-RNH_Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		F8AD19460733F6AD5C43BE2D /* Pods-RNH-Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNH-Tracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNH-Tracker/Pods-RNH-Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		FAA7CCBA9C75057CC4C291CB /* Pods_RNH_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNH_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,7 +281,7 @@
 				899D677819CF0A9F00C88A0A /* MessageUI.framework in Frameworks */,
 				898EED0019C4A15E00B4B207 /* CoreLocation.framework in Frameworks */,
 				898EECFE19C49DC700B4B207 /* MapKit.framework in Frameworks */,
-				C894B839E0B8DC37DE05DDCC /* Pods_RNH-Tracker.framework in Frameworks */,
+				54582AD16BE45836AC8C4349 /* Pods_RNH_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +296,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C51CE1F4B71B7051FF9F4D44 /* Pods_RNHTracker_Watch_Extension.framework in Frameworks */,
+				1D92EBEDCB4EF01D87B93C95 /* Pods_RNH_Tracker_Watch_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,9 +416,9 @@
 				899D677719CF0A9F00C88A0A /* MessageUI.framework */,
 				898EECFF19C4A15E00B4B207 /* CoreLocation.framework */,
 				898EECFD19C49DC700B4B207 /* MapKit.framework */,
-				95D28CBDF2535138FA16F38F /* Pods_RNH-Tracker.framework */,
 				3C3088B74A230AB1FD234D6F /* Pods_RNH-Tracker_Watch.framework */,
-				93BD71BED3CF101C2B01ABDA /* Pods_RNHTracker_Watch_Extension.framework */,
+				FAA7CCBA9C75057CC4C291CB /* Pods_RNH_Tracker.framework */,
+				80F3192FC0A00770078C176F /* Pods_RNH_Tracker_Watch_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -478,9 +479,10 @@
 			isa = PBXGroup;
 			children = (
 				44E786790A477838358F948C /* Pods-RNH-Tracker.debug.xcconfig */,
-				F8AD19460733F6AD5C43BE2D /* Pods-RNH_Tracker.release.xcconfig */,
+				F8AD19460733F6AD5C43BE2D /* Pods-RNH-Tracker.release.xcconfig */,
 				9A591D96EF2E41D00AD6BB3A /* Pods-RNH-Tracker-Watch Extension.debug.xcconfig */,
 				554D2ACAA71E64B3A7B1A167 /* Pods-RNH-Tracker-Watch Extension.release.xcconfig */,
+				66D1F001DBF0F222F6A6D674 /* Pods-RNH-Tracker.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -603,6 +605,7 @@
 				TargetAttributes = {
 					898EECD419C49B5800B4B207 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 9J2S23WJH3;
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -612,15 +615,18 @@
 					};
 					898EECEC19C49B5800B4B207 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 9J2S23WJH3;
 						LastSwiftMigration = 1020;
 						TestTargetID = 898EECD419C49B5800B4B207;
 					};
 					BF692F562209AAF900F8A0F1 = {
 						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 9J2S23WJH3;
 						ProvisioningStyle = Automatic;
 					};
 					BF692F622209AAFB00F8A0F1 = {
 						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = 9J2S23WJH3;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -717,7 +723,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OpenGpxTracker-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNH-Tracker-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -735,7 +741,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OpenGpxTracker-Watch Extension-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RNH-Tracker-Watch Extension-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -748,7 +754,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OpenGpxTracker/Pods-OpenGpxTracker-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RNH-Tracker/Pods-RNH-Tracker-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CoreGPX-iOS/CoreGPX.framework",
 				"${BUILT_PRODUCTS_DIR}/MapCache/MapCache.framework",
 			);
@@ -759,7 +765,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenGpxTracker/Pods-OpenGpxTracker-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNH-Tracker/Pods-RNH-Tracker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DC6FB8E11C49DF2C00B378D4 /* SwiftLint */ = {
@@ -782,7 +788,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OpenGpxTracker-Watch Extension/Pods-OpenGpxTracker-Watch Extension-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-RNH-Tracker-Watch Extension/Pods-RNH-Tracker-Watch Extension-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CoreGPX-watchOS/CoreGPX.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -791,7 +797,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenGpxTracker-Watch Extension/Pods-OpenGpxTracker-Watch Extension-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNH-Tracker-Watch Extension/Pods-RNH-Tracker-Watch Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1024,6 +1030,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				"DSTROOT[sdk=*]" = "/tmp/$(PROJECT_NAME).dst";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1108,14 +1115,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = OpenGpxTracker/Info.plist;
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
+				INFOPLIST_FILE = "RNH-Tracker/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.7.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = OpenGpxTracker/ObjectiveCBridgingHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNH-Tracker/ObjectiveCBridgingHeader.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "RNH-Tracker-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1123,20 +1131,21 @@
 		};
 		898EECF919C49B5800B4B207 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8AD19460733F6AD5C43BE2D /* Pods-RNH_Tracker.release.xcconfig */;
+			baseConfigurationReference = 66D1F001DBF0F222F6A6D674 /* Pods-RNH-Tracker.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = OpenGpxTracker/Info.plist;
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
+				INFOPLIST_FILE = "RNH-Tracker/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.7.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = OpenGpxTracker/ObjectiveCBridgingHeader.h;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNH-Tracker/ObjectiveCBridgingHeader.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "RNH-Treacker-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1146,7 +1155,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -1155,7 +1164,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = OpenGpxTrackerTests/Info.plist;
+				INFOPLIST_FILE = "RNH-TrackerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.transitbox.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1168,12 +1177,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = OpenGpxTrackerTests/Info.plist;
+				INFOPLIST_FILE = "RNH-TrackerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.transitbox.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1196,10 +1205,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IBSC_MODULE = OpenGpxTracker_Watch_Extension;
-				INFOPLIST_FILE = "OpenGpxTracker-Watch/Info.plist";
+				IBSC_MODULE = "RNH-Tracker_Watch_Extension";
+				INFOPLIST_FILE = "RNH-Tracker-Watch/Info.plist";
 				MARKETING_VERSION = 1.7.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1229,10 +1238,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IBSC_MODULE = OpenGpxTracker_Watch_Extension;
-				INFOPLIST_FILE = "OpenGpxTracker-Watch/Info.plist";
+				IBSC_MODULE = "RNH-Tracker_Watch_Extension";
+				INFOPLIST_FILE = "RNH-Tracker-Watch/Info.plist";
 				MARKETING_VERSION = 1.7.2;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker.watchkitapp";
@@ -1258,9 +1267,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "OpenGpxTracker-Watch Extension/Info.plist";
+				INFOPLIST_FILE = "RNH-Tracker-Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.7.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1290,9 +1299,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9J2S23WJH3;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "OpenGpxTracker-Watch Extension/Info.plist";
+				INFOPLIST_FILE = "RNH-Tracker-Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.7.2;
 				MTL_FAST_MATH = YES;

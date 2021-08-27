@@ -1,7 +1,6 @@
 //
 //  UIColor+DarkMode.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by Vincent on 29/11/19.
 //
 

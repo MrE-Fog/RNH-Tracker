@@ -1,7 +1,6 @@
 //
 //  DefaultDateFormat.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by Vincent on 4/3/20.
 //
 

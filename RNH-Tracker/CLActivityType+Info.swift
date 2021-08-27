@@ -1,7 +1,6 @@
 //
 //  CLActivityType+Info.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by Vincent on 22/7/19.
 //
 

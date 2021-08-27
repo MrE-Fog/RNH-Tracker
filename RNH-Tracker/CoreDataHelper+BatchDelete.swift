@@ -1,7 +1,6 @@
 //
 //  CoreDataHelper+BatchDelete.swift
-//  OpenGpxTracker
-//
+//  RNH-Tracker
 //  Created by Vincent on 1/8/20.
 //
 

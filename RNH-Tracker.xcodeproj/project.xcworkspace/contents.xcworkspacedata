@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:OpenGpxTracker.xcodeproj">
+      location = "self:/Users/cafferata/xCodes-Projecten/RNH/RNH-Tracker/RNH-Tracker.xcodeproj">
    </FileRef>
 </Workspace>
