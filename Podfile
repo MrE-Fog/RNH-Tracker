@@ -4,7 +4,7 @@ def shared_pods
     pod 'CoreGPX'
 end
 
-target 'OpenGpxTracker' do
+target 'RNH-Tracker' do
     platform :ios, '9.0'
     shared_pods
     pod 'MapCache', '~> 0.9.0'
@@ -12,7 +12,7 @@ target 'OpenGpxTracker' do
     
 end
 
-target 'OpenGpxTracker-Watch Extension' do
+target 'RNH-Tracker-Watch Extension' do
     platform :watchos, '2.0'
     shared_pods
 end

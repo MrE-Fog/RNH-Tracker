@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:OpenGpxTracker.xcodeproj">
+      location = "group:/Users/cafferata/xCodes-Projecten/RNH/RNH-Tracker/RNH-Tracker.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

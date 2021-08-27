@@ -1,0 +1,6 @@
+framework module Pods_RNH-Tracker_Watch_Extension {
+  umbrella header "Pods-RNH-Tracker-Watch Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

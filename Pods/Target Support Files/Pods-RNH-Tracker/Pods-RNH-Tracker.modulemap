@@ -1,0 +1,6 @@
+framework module Pods_RNH-Tracker {
+  umbrella header "Pods-RNH-Tracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
