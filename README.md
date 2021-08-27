@@ -48,7 +48,7 @@ This application is written in Swift. To download the code run this command in a
  git clone https://github.com/edcafferata/
 ```
 
-Then, to test it open the file `RNHOpenGpxTracker.xcworkspace` with XCode.
+Then, to test it open the file `RNHTracker.xcworkspace` with XCode.
 
 # Contribute
 You can contribute by forking and submitting a pull request.
