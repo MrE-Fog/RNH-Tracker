@@ -25,7 +25,6 @@
 		898EECE019C49B5800B4B207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898EECDF19C49B5800B4B207 /* ViewController.swift */; };
 		898EECE319C49B5800B4B207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898EECE119C49B5800B4B207 /* Main.storyboard */; };
 		898EECE519C49B5800B4B207 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898EECE419C49B5800B4B207 /* Images.xcassets */; };
-		898EECF419C49B5800B4B207 /* RNH-TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898EECF319C49B5800B4B207 /* RNH-TrackerTests.swift */; };
 		898EECFE19C49DC700B4B207 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898EECFD19C49DC700B4B207 /* MapKit.framework */; };
 		898EED0019C4A15E00B4B207 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898EECFF19C4A15E00B4B207 /* CoreLocation.framework */; };
 		898EED3619C6402900B4B207 /* GPXFilesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898EED3519C6402900B4B207 /* GPXFilesTableViewController.swift */; };
@@ -195,7 +194,6 @@
 		898EECE419C49B5800B4B207 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		898EECED19C49B5800B4B207 /* RNH-TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNH-TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		898EECF219C49B5800B4B207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		898EECF319C49B5800B4B207 /* RNH-TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RNH-TrackerTests.swift"; sourceTree = "<group>"; };
 		898EECFD19C49DC700B4B207 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		898EECFF19C4A15E00B4B207 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		898EED0219C5EE1500B4B207 /* ObjectiveCBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveCBridgingHeader.h; sourceTree = "<group>"; };
@@ -390,7 +388,6 @@
 		898EECF019C49B5800B4B207 /* RNH-TrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				898EECF319C49B5800B4B207 /* RNH-TrackerTests.swift */,
 				898EECF119C49B5800B4B207 /* Supporting Files */,
 			);
 			path = "RNH-TrackerTests";
@@ -856,7 +853,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898EECF419C49B5800B4B207 /* RNH-TrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,7 +1116,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.7.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rondeomnoordholland.rnhapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "RNH-Tracker/ObjectiveCBridgingHeader.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "RNH-Tracker-Swift.h";
@@ -1142,7 +1138,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.7.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rondeomnoordholland.rnhapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "RNH-Tracker/ObjectiveCBridgingHeader.h";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "RNH-Treacker-Swift.h";
@@ -1212,7 +1208,7 @@
 				MARKETING_VERSION = 1.7.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rondeomnoordholland.rnhapp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1244,7 +1240,7 @@
 				INFOPLIST_FILE = "RNH-Tracker-Watch/Info.plist";
 				MARKETING_VERSION = 1.7.2;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rondeomnoordholland.rnhapp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1274,7 +1270,7 @@
 				MARKETING_VERSION = 1.7.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker.watchkitapp.extension";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rondeomnoordholland.rnhapp.watchkitapp.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1305,7 +1301,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MARKETING_VERSION = 1.7.2;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "info.cafferata.RNH-Tracker.watchkitapp.extension";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.rondeomnoordholland.rnhapp.watchkitapp.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
