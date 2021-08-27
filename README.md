@@ -3,18 +3,15 @@ RNH Tracker for iOS + WatchOS
 
 [![Available on the app store] <https://apps.apple.com/nl/app/rnh-tracker-ysy/id1191110831>
 
-RNH Tracker is a GPS logger for iOS (iPhone, iPad, iPod) with offline map cache support. Track your location, add waypoints and send your logs by email as GPX files.
+RNH Tracker is a GPS logger for iOS (iPhone, iPad, iPod) with offline map cache support. 
+Track your location, add waypoints and send your logs by email as GPX files.
 
 This app has no annoying time restrictions, no ads and no in-app-purchases. Create unlimited GPX traces :).
 
-If you are goint to track without Internet... don't worry! Just browse the area where you'll be tracking and it will be cached.
-
-Requires iOS 9.0 or above. Open GPX tracker is an open source app.
-
-You can use Open GPX tracker for:
+You can use RNH tracker for:
 
  - to help RNH (YSY) with the REGATTA !
- - Creating real GPX files for testing your iOS apps in Xcode.
+ - Creating real GPX files.
 
 # Main Features
 
