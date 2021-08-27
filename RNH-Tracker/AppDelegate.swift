@@ -1,10 +1,5 @@
-//
 //  AppDelegate.swift
-//  OpenGpxTracker
-//
-//  Created by merlos on 13/09/14.
-//  Copyright (c) 2014 TransitBox. All rights reserved.
-//
+//  RNH-Tracker
 
 import UIKit
 import CoreData
