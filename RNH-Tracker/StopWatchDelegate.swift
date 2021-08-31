@@ -1,8 +1,5 @@
-//
 //  StopWatchDelegate.swift
 //  RNH-Tracker
-//  Created by merlos on 24/09/14.
-//
 
 import Foundation
 
